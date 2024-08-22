@@ -58,6 +58,14 @@
     },
     "is_anonimous": {
       "type": "boolean"
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "mobile",
+        "call"
+      ]
     }
   }
 }
